@@ -1,0 +1,73 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="G7V@w*zG(cK?lkcB48qd" x="0" y="0"><statement name="HANDLER"><block type="device_while" id="!4Qt2///kR7a/PWtXq[8"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="aR!fQnkvyZ$.b[G):#a-"><field name="NAME">Button.AB</field></block></value><statement name="DO"><block type="device_show_leds" id="MIT$^Z.t4#=uiUX;0-~="><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_clear_display" id="fLo#9|;G:MneOyONmt!8"><next><block type="device_pause" id="2BZ!DP;[fi=@BwL!wutM"><value name="pause"><shadow type="timePicker" id="SRn0)6K_b*c0(5Rg|mMm"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="}-H6cE$X~}n|YTFu0^5E"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="p0v4PUKe|ek9,Sap7l^s"><next><block type="device_pause" id="7,!tTuY}m-*CT0v}hcn|"><value name="pause"><shadow type="timePicker" id="AtE7oywh}nQt9q9.fwi0"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="HFh]~EQhbxL:7Gqrg/hL"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="vZjY/BY!j5[zsaHr`gjm"><next><block type="device_pause" id="$_(19@esn1t^|4Fd_/x}"><value name="pause"><shadow type="timePicker" id=";r*W3AC.F2tgHH]6/N,e"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="aC5]$rcO~vj0;Hd!BgLN"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="dWqXwERkwr1rKF9f68Ss"><next><block type="device_pause" id="vUTQ.Bdy7PAok){rkp]r"><value name="pause"><shadow type="timePicker" id="MXy1[((Z#a!1_AV`u`^a"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><next><block type="device_while" id="SQfAKr2sVzh@ZQ*9A2sQ"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="#:ZWp$T22]Vg(fW7g)w("><field name="NAME">Button.A</field></block></value><statement name="DO"><block type="device_show_leds" id="#}3!/]g?l+jKS^i6=DD="><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        # # # # # 
+        . # # . . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="jLQcar%Y2nE#[FWt^8FX"><next><block type="device_pause" id="B2N;ti(d}VM*P?-K~BR)"><value name="pause"><shadow type="timePicker" id="?fO*sW#S]hxI@}S1p6k^"><field name="ms">500</field></shadow></value></block></next></block></next></block></statement><next><block type="device_while" id="gKuP!RNuv6wQU.u43FDT"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="RZYH)VMSVU={|q=bM*y9"><field name="NAME">Button.B</field></block></value><statement name="DO"><block type="device_show_leds" id="iS{PN@unrjG1+8Q,1$p)"><field name="LEDS">`
+        . . # . . 
+        . . # # . 
+        # # # # # 
+        . . # # . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="%h]lmT.L``x09q2E3[-e"><next><block type="device_pause" id=")Q{Flt@,)HiI^JWQQ)r|"><value name="pause"><shadow type="timePicker" id="Q0F2w,XFo1]f;c2lAYMo"><field name="ms">500</field></shadow></value></block></next></block></next></block></statement></block></next></block></next></block></statement></block><block type="device_gesture_event" id="!D-o]YoW71m$Is2xE[cW" x="533" y="73"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="!cA;`[@3g*G{q,Aa={%:"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_clear_display" id="=0rl.Pj(ye1c|G1K|He}"><next><block type="device_show_leds" id="T.fP.uP~/a*r.vWVb_=s"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # # # # #
+        `</field><next><block type="device_clear_display" id="!ZVL4XxuY?S9ffW.xNie"><next><block type="device_show_leds" id="o*adIf#FH|#3?bJp18~o"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="rqrr1I3jMZAw_QM-e.ci"><next><block type="device_show_leds" id="mEq~3kQ:g.T!.9(rb|U~"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="=jZ}0jgu}^SPca5o1wm("><next><block type="device_show_leds" id="k}MV^@vGHDqDjunb*Sl-"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="+{WpB6c*isQ!l.taMWbV"><next><block type="device_show_leds" id="C6n;qMnmPcj7LE%5E.b`"><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="?~k!RgDRUep]H:s+`C-N"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
